@@ -37,57 +37,108 @@ body{
 
 
 /*Navigation */
+
+
+
+/*//////////Navigation button animation//////////*/
+
 .homePage__nav{
     border: 4px solid blue;
     padding-left: 24px;
+}
+
+a {
 
 }
 
 .homePage__nav a{
     text-decoration: none;
     float: left;
-    color: #e01313;
     text-align: center;
     padding: 12px 25px;
     font-size: 17px;
 }
 
 .homePage__nav a:hover {
-    background-color: #ddd;
     color: black;
 }
 
-a.homePage__nav_home {
+/*home button*/
+.homePage__nav_home, .homePage__nav_products, .homePage__nav_aboutUs, .homePage__nav_team, .homePage__nav_contacts{
+    text-align: center;
+    display: inline-block;
+    border: 4px solid rgb(223, 26, 26);
+    cursor: pointer;
+    position:relative;
+    overflow:hidden;
+    background-color: green;
+}
+
+.homePage__nav_home:before, .homePage__nav_products:before, .homePage__nav_aboutUs:before, .homePage__nav_team:before, .homePage__nav_contacts:before{
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background : #fff;
+    left: -55px;
+    top: -40px;
+    transform: rotate(37deg);
+    transition: all .3s;
+    opacity: 0.3;
+}
+
+.homePage__nav_home:hover:before, .homePage__nav_products:hover:before, .homePage__nav_aboutUs:hover:before, .homePage__nav_team:hover:before, .homePage__nav_contacts:hover:before{
+    left:95%;
+}
+
+/*home button End*/
+
+
+
+
+/*//////////Navigation button animation END//////////*/
+
+
+
+
+
+
+
+
+/*
+a.homePage__nav_home-animation{
     background-color: #04AA6D;
     color: white;
 }
 
-a.homePage__nav_products {
+a.homePage__nav_products-animation {
     background-color: #04AA6D;
     color: white;
 }
 
-a.homePage__nav_aboutUs{
+a.homePage__nav_aboutUs-animation{
     background-color: #04AA6D;
     color: white;
 }
 
-a.homePage__nav_team{
+a.homePage__nav_team-animation{
     background-color: #04AA6D;
     color: white;
 }
 
-a.homePage__nav_contacts{
+a.homePage__nav_contacts-animation{
     background-color: #04AA6D;
     color: white;
 }
 
+*/
 
 
 
 
 
-.homePage__nav_home{
+/*
+.homePage__nav_home-animation{
     border: 1px solid rgb(0, 255, 191);
 }
 .homePage__nav_products{
@@ -105,6 +156,8 @@ a.homePage__nav_contacts{
 .homePage__nav_contacts{
     border: 1px solid rgb(0, 255, 191);
 }
+*/
+
 /*Navigation END*/
 
 

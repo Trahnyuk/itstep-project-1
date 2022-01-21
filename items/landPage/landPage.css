@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landingPage{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+    flex-grow: 1;
+    flex-basis: 200px;
+    
+
+    background-image: url(../landPage/landPage_bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+
+.landingPage__container{
+    /*border: 2px solid red;*/
+}
+
+
+.landingPage__item_text{
+    /*border: 2px solid green;*/
+    display: flex;
+    justify-content:center
+}
+
+.landingPageContainer__item_mainText{
+    /*border: 2px solid blue;*/
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+    flex-basis: 300px;
+}
+
+/*H1*/
+.mainText_h1{
+    /*border: 2px solid purple;*/
+    text-align: center;
+}
+
+.mainText_h1 h1{
+    color:#F8EDD1;
+    font-size: 112px;
+}
+
+.mainText_h1 h1{
+    margin:0;
+}
+
+.wordGame{
+    color:#FF8B1F;
+}
+/*H1 END*/
+
+
+/*H2*/
+.mainText_h2{
+    /*border: 2px solid purple;*/
+    text-align: center;
+}
+.mainText_h2 h2{
+    color:#F8EDD1;
+    font-size: 40px;
+    margin:0;
+}
+/*H2 END*/
+
+
+
+
+.landingPage__item_button{
+    /*border: 2px solid yellow;*/
+    display: flex;
+    justify-content:center;
+}
+
+.buttonStart{
+    /*border: 2px solid green;*/
+    font-size:40px;    
+}
+
+
+
+/*Responsibility of page*/
+
+    /*iPhone 12*/
+@media screen and (max-width: 390px){
+    .landingPage{
+        background-image: url(../landPage/landPage_bg2.jpg);
+        background-position-x: -18rem; 
+    
+}
+
+
+    /*iPad Air*/
+@media screen and (max-width: 820px){
+    .landingPage{
+        background-image: url(../landPage/landPage_bg2.jpg);
+        background-position-x: -18rem;
+    }
+
+
+    .mainText_h1 h1{
+        margin-bottom:0;
+        font-size: 3em;
+    }
+
+    .mainText_h2 h2{
+        font-size: 1em;
+    }
+}
+
+/*Responsibility of page End*/

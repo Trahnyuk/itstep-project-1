@@ -1,0 +1,162 @@
+/* body space NULL*/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* body space NULL END*/
+
+
+
+.container{
+    border: 4px solid red;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*//////////////////////////////////////// HEAD PART //////////////////////////////////////////////*/
+
+/*HEADER */
+.homePage__header{
+    border: 4px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 10px 20px;
+}
+
+.homePage__header_label{
+    border: 1px solid rgb(145, 255, 0);
+}
+
+.homePage__header_search{
+    border: 1px solid rgb(145, 255, 0);
+}
+
+.homePage__header_label{
+    border: 1px solid rgb(145, 255, 0);
+}
+/*HEADER END*/
+
+
+
+/*Navigation */
+.homePage__nav{
+    border: 4px solid blue;
+    padding-left: 24px;
+}
+
+.homePage__nav a{
+    text-decoration: none;
+    float: left;
+    color: #e01313;
+    text-align: center;
+    padding: 12px 25px;
+    font-size: 17px;
+}
+
+.homePage__nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+a.homePage__nav_home {
+    background-color: #04AA6D;
+    color: white;
+}
+
+a.homePage__nav_products {
+    background-color: #04AA6D;
+    color: white;
+}
+
+a.homePage__nav_aboutUs{
+    background-color: #04AA6D;
+    color: white;
+}
+
+a.homePage__nav_team{
+    background-color: #04AA6D;
+    color: white;
+}
+
+a.homePage__nav_contacts{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.homePage__nav_home{
+    border: 1px solid rgb(0, 255, 191);
+}
+.homePage__nav_products{
+    border: 1px solid rgb(0, 255, 191);
+}
+
+.homePage__nav_aboutUs{
+    border: 1px solid rgb(0, 255, 191);
+}
+
+.homePage__nav_team{
+    border: 1px solid rgb(0, 255, 191);
+}
+
+.homePage__nav_contacts{
+    border: 1px solid rgb(0, 255, 191);
+}
+/*Navigation END*/
+
+
+/*//////////////////////////////////////// HEAD PART //////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////////////////////// Maine //////////////////////////////////////////////*/
+/*Main content*/
+.contacts__main{
+    border: 4px solid blue;
+}
+
+.contacts__main_headerText{
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+
+}
+    /* text */
+        .contactUs__main_header_text-upper{
+            border: 2px solid darkslategray;
+            text-align: center;
+        }
+        .contactUs__main_header_text-lower{
+            border: 2px solid darkslategray;
+            text-align: center;
+        }
+    /* text END*/
+
+.contacts__main_contactBox{
+    border: 4px solid purple;
+    display:flex;
+    justify-content: space-between;
+}
+    /* box content*/
+        .contactUs__main_contactBox_contactForm{
+            border: 4px solid darkgoldenrod;
+        }
+        .contacts__main_contactBox_contactInfo{
+            border: 4px solid darkgoldenrod;
+        }
+    /*box content END*/
+
+/*Main content END*/
+
+
+/*Footer*/
+.contacts__footer{}
+
+
+/*//////////////////////////////////////// Maine END//////////////////////////////////////////////*/
+
+
+

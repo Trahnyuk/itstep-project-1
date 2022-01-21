@@ -84,13 +84,6 @@ body{
 }
 
 /*////////////////////insert item///////////////////*/
-
-/*/* {
-    box-sizing: border-box;
-}
-
-*/
-
 .landingPage__item_button {
     display: flex;
     justify-content: center;
@@ -178,8 +171,6 @@ path.two {
         fill: white;
     }
 }
-
-
 /*////////////////////////insert item END///////////////////*/
 
 

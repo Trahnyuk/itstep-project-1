@@ -10,8 +10,8 @@ body{
     flex-direction: column;
     justify-content:center;
 
-    flex-grow: 1;
-    flex-basis: 200px;
+
+
     
 
     background-image: url(../landPage/landPage_bg2.jpg);
@@ -50,6 +50,7 @@ body{
 .mainText_h1 h1{
     color:#F8EDD1;
     font-size: 112px;
+    padding-top: 120px;
 }
 
 .mainText_h1 h1{
@@ -94,17 +95,17 @@ body{
 
     /*iPhone 12*/
 @media screen and (max-width: 390px){
-    .landingPage{
-        background-image: url(../landPage/landPage_bg2.jpg);
-        background-position-x: -18rem; 
-    
+    .landingPage {
+        background-image: url(landPage_bg2.jpg);
+        background-position-x: -10rem;
+    }
 }
 
 
     /*iPad Air*/
 @media screen and (max-width: 820px){
     .landingPage{
-        background-image: url(../landPage/landPage_bg2.jpg);
+        background-image: url(landPage_bg2.jpg);
         background-position-x: -18rem;
     }
 

@@ -21,15 +21,15 @@ body{
     padding: 10px 20px;
 }
 
-.homePage__header_lable{
+.homePage__header_label{
     border: 1px solid rgb(145, 255, 0);
 }
 
-.homePage__header_shearch{
+.homePage__header_search{
     border: 1px solid rgb(145, 255, 0);
 }
 
-.homePage__header_lable{
+.homePage__header_label{
     border: 1px solid rgb(145, 255, 0);
 }
 
@@ -39,10 +39,9 @@ body{
 /*//////////Navigation button//////////*/
 
 .homePage__nav{
-    border: 4px solid blue;
-    padding-bottom: 0;
+    background-image:url(../homePage/sourse/soundWave.svg);
+    /*border: 4px solid blue;*/
     display: flex;
-    padding-left: 20px;
 }
 
 .homePage__nav a{
@@ -54,20 +53,20 @@ body{
     font-size: 17px;
 }
 
-.homePage__nav a:hover {
-    color: black;
-}
 
 /*Navigation buttons animation*/
 .homePage__nav_home, .homePage__nav_products, .homePage__nav_aboutUs, .homePage__nav_team, .homePage__nav_contacts{
     text-align: center;
     display:flex;
     flex-direction: row;
-    /*border: 4px solid rgb(223, 26, 26);*/
+    border: 2px solid #F8EDD1;
+    padding:6px;
     cursor: pointer;
     position:relative;
     overflow:hidden;
-    background-color: green;
+    background-color: #307CE6;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 .homePage__nav_home:before, .homePage__nav_products:before, .homePage__nav_aboutUs:before, .homePage__nav_team:before, .homePage__nav_contacts:before{
@@ -80,12 +79,20 @@ body{
     top: -40px;
     transform: rotate(37deg);
     transition: all .3s;
-    opacity: 0.1;
+    opacity: 0.3;
 }
+
+.homePage__nav_home:hover, .homePage__nav_products:hover, .homePage__nav_aboutUs:hover, .homePage__nav_team:hover, .homePage__nav_contacts:hover{
+    background-color: #FF8B1F;
+    border: 2px solid #000000;
+}
+
 
 .homePage__nav_home:hover:before, .homePage__nav_products:hover:before, .homePage__nav_aboutUs:hover:before, .homePage__nav_team:hover:before, .homePage__nav_contacts:hover:before{
     left:80%;
 }
+
+
 
 /*Navigation buttons animation END*/
 

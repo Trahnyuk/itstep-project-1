@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../itstep-project-1/items/homePage/homePage.css" type="text/css">
-    <script src="../itstep-project-1/items/homePage/slider.js"></script>
     <title>Home</title>
 </head>
 
@@ -59,32 +58,51 @@
     <!--Main content-->
     <div class="homePage__main">
 
-        <div class="homePage__main_slider">
 
-                <div class="homePage__main_slider-img fade">
-                    <img src="../itstep-project-1/items/homePage/sourse/slider/game-cyberpunk-2077.jpg" style="width:100%">
-                </div>
+        <div class="homePage__slideshow_container">
 
-                <div class="homePage__main_slider-img fade">
-                    <img src="../itstep-project-1/items/homePage/sourse/slider/game-deathloop.jpg" style="width:100%">
-                </div>
+            <div class="slideshow_container-imgSlides fade">
+                <img class="container-imgSlides-style" src="../itstep-project-1/items/homePage/sourse/slider/game-halo-infinite.jpg" alt="halo-infinite" style="width:50%">
+            </div>
 
-                <div class="homePage__main_slider-img fade">
-                    <img src="../itstep-project-1/items/homePage/sourse/slider/game-halo-infinite.jpg" style="width:100%">
-                </div>
+            <div class="slideshow_container-imgSlides fade">
+                <img class="container-imgSlides-style" src="../itstep-project-1/items/homePage/sourse/slider/game-deathloop.jpg" alt="deathloop"  style="width:50%">
+            </div>
 
-                <div>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
+            <div class="slideshow_container-imgSlides fade">
+                <img class="container-imgSlides-style" src="../itstep-project-1/items/homePage/sourse/slider/game-cyberpunk-2077.jpg" alt="cyberpunk" style="width:50%">
+            </div>
 
         </div>
 
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                let i;
+                const slides = document.getElementsByClassName("slideshow_container-imgSlides");
+                const dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 3500); // Change image every 2 seconds
+            }
+
+        </script>
+
+
     </div>
     <!--Main content END-->
-
-
 
 
 
@@ -101,6 +119,7 @@
     <!--Footer END-->
     <!--//////////////////////////////////////// Maine END//////////////////////////////////////////////-->
 </div>
+
 
 
 </body>

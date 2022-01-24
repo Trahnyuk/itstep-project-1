@@ -268,28 +268,38 @@ body{
 /*Slider END*/
 
 
-
 /*Footer*/
 .homePage__footer{
     border: 4px solid purple;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding:4px;
 }
 
-.homePage__footer_proguct1{
+.homePage__footer_topSales{
+    display: flex;
+    justify-content: center;
+}
+
+.homePage__footer_topSales_products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.homePage__footer_product1{
     border: 2px solid rgb(233, 38, 233);
 }
-.homePage__footer_proguct2{
+.homePage__footer_product2{
     border: 2px solid rgb(233, 38, 233);
 }
-.homePage__footer_proguct3{
+.homePage__footer_product3{
     border: 2px solid rgb(233, 38, 233);
 }
-.homePage__footer_proguct4{
+.homePage__footer_product4{
     border: 2px solid rgb(233, 38, 233);
 }
-.homePage__footer_proguct5{
+.homePage__footer_product5{
     border: 2px solid rgb(233, 38, 233);
 }
 

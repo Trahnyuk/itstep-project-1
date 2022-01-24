@@ -59,53 +59,80 @@
     <div class="homePage__main">
 
 
-        <div class="homePage__slideshow_container">
+            <div class="homePage__slider_container">
+                <div class="homePage__slider_slides">
 
-            <div class="slideshow_container-imgSlides fade">
-                <img class="container-imgSlides-style" src="../itstep-project-1/items/homePage/sourse/slider/game-halo-infinite.jpg" alt="halo-infinite" style="width:50%">
+                    <!--Battlefield-20242 -->
+                    <div class="slider_slides_gameImage">
+                        <div class="slider_slides_gameImage-legend"></div>
+                        <div class="slider_slides_gameImage-content">
+                            <div class="slider_slides_gameImage-content-txt">
+                                <h1> Battlefield 2042 </h1>
+                                <h2>Studere nunquam ducunt ad brevis mensa.</h2>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <img src="../itstep-project-1/items/homePage/sourse/slider/webp/game-battelfield-2042.webp" alt="Battelfiel 2042">
+                        </div>
+                    </div>
+
+
+
+                    <!-- Biomutant -->
+                    <div class="slider_slides_gameImage">
+                        <div class="slider_slides_gameImage-legend"></div>
+                        <div class="slider_slides_gameImage-content">
+                            <div class="slider_slides_gameImage-content-txt">
+                                <h1>Biomutant</h1>
+                                <h2>Sensorems tolerare!</h2>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <img src="../itstep-project-1/items/homePage/sourse/slider/webp/game-biomutant.webp" alt="Biomutant">
+                        </div>
+                    </div>
+
+
+                    <!--Halo-Infinite -->
+                    <div class="slider_slides_gameImage">
+                        <div class="slider_slides_gameImage-legend"></div>
+                        <div class="slider_slides_gameImage-content">
+                            <div class="slider_slides_gameImage-content-txt">
+                                <h1>Halo Infinite</h1>
+                                <h2>Ubi est superbus elevatus?</h2>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <img src="../itstep-project-1/items/homePage/sourse/slider/webp/game-halo-infinite.webp" alt="Halo infinite">
+                        </div>
+                    </div>
+
+
+                    <!--God-of-war -->
+                    <div class="slider_slides_gameImage">
+                        <div class="slider_slides_gameImage-legend"></div>
+                        <div class="slider_slides_gameImage-content">
+                            <div class="slider_slides_gameImage-content-txt">
+                                <h1>God of War Ragnarok</h1>
+                                <h2>A falsis, hippotoxota emeritis fortis.</h2>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <img src="../itstep-project-1/items/homePage/sourse/slider/webp/game-god-of-war-ragnarok.webp" alt="God of war ragnarok">
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
 
-            <div class="slideshow_container-imgSlides fade">
-                <img class="container-imgSlides-style" src="../itstep-project-1/items/homePage/sourse/slider/game-deathloop.jpg" alt="deathloop"  style="width:50%">
-            </div>
-
-            <div class="slideshow_container-imgSlides fade">
-                <img class="container-imgSlides-style" src="../itstep-project-1/items/homePage/sourse/slider/game-cyberpunk-2077.jpg" alt="cyberpunk" style="width:50%">
-            </div>
-
-        </div>
 
 
-        <script>
-            let slideIndex = 0;
-            showSlides();
 
-            function showSlides() {
-                let i;
-                const slides = document.getElementsByClassName("slideshow_container-imgSlides");
-                const dots = document.getElementsByClassName("dot");
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-
-                slideIndex++;
-                if (slideIndex > slides.length) {slideIndex = 1}
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-
-                slides[slideIndex-1].style.display = "block";
-                setTimeout(showSlides, 3500); // Change image every 2 seconds
-            }
-
-        </script>
 
 
     </div>
     <!--Main content END-->
-
-
-
 
 
     <!--Footer-->

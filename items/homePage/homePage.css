@@ -236,11 +236,11 @@ body{
     height:600px;
     float:left;
     position:relative;
-    top:200px;
+    top:250px;
     animation:content-s 7.5s infinite;
 }
 .content-txt h2{
-    font-size:45px;
+    font-size:2rem;
     color:#fff;
     text-align:left;
     margin-left:10px;
@@ -249,7 +249,7 @@ body{
     font-style:italic;
 }
 .content-txt h3{
-    font-size:32px;
+    font-size:2rem;
     color:#fff;
     text-align:left;
     margin-left:30px;

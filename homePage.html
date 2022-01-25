@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../itstep-project-1/items/homePage/homePage.css" type="text/css">
     <title>Home</title>
 </head>
@@ -16,9 +17,30 @@
 
     <!--Header-->
     <div class="homePage__header">
-        <a href="homePage.html" target="_blank" class="homePage__header_label">LABLE</a>
-        <div class="homePage__header_search">SHEARCH</div>
-        <div class="homePage__header_label">LOG IN</div>
+
+        <a class="homePage__header_label" href="homePage.html" target="_blank">
+            <img src="./items/logo.svg" alt="logo">
+        </a>
+
+        <div class="homePage__header_search">
+            <div class="search">
+                <div class="search_container">
+                    <form action="/action_page.php" target="_blank">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="homePage__header_label">
+            <div class="logIn_button">
+                <button type="submit"><span>Login</span></button>
+            </div>
+        </div>
+
+
     </div>
 
 

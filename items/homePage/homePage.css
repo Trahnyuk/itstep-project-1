@@ -38,7 +38,69 @@ body{
     border: 1px solid rgb(145, 255, 0);
 }
 
+/*logo*/
+.homePage__header_label{
+    display: flex;
+}
+.homePage__header_label img{
+    width: 100px;
+}
+/*logo End*/
 
+
+
+/*search bar*/
+.homePage__header_search{
+    padding-top: 35px;
+}
+
+.search input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    width: 500px;
+}
+
+.search .search_container button {
+    float: right;
+    padding: 6px 10px;
+    background: rgb(255, 139, 31);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search .search_container button:hover {
+    background: rgb(106, 57, 185);
+    color: rgb(255, 139, 31);
+}
+
+
+/*search bar End*/
+
+
+/*log in button*/
+    .logIn_button button{
+        width: 100px;
+        height: 100px;
+        border-radius: 0 20px 20px 20px;
+        font-size: 24px;
+        background-color: #FF8B1F;
+        cursor: pointer;
+        border: none;
+    }
+
+    .logIn_button button:hover{
+        background-color: rgb(106, 57, 185);
+        color: #F8EDD1;
+        border: 2px solid white;
+    }
+
+
+
+
+
+/*log in button ENd*/
 
 
 /*//////////Navigation button//////////*/

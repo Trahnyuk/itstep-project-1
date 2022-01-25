@@ -1,46 +1,30 @@
 /*About Us main*/
 .aboutUs__main{
-    border: 4px solid yellow;
+    /*border: 4px solid yellow;*/
     display:flex;
 }
 
 .aboutUs__main_text{
-    border: 4px solid red;
-   /*width:50%;
-    color: white;*/
+    /*border: 4px solid red;*/
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 p{
     text-align: justify;
 }
-
-span img{
+img{
+    border-radius: 10%;
     float: right;
     width: 300px;
 }
 
-
-.aboutUs__main_img{
-   /* border: 4px solid red;
-    width:50%;
-}
-*/
-
 /*About Us main END*/
-
-
-/* some picture
-    .main_img_picture{
-        display: flex;
-        border: 6px solid green;
-        justify-content: center;
-    }
-some picture End*/
-
 
 
 /*Footer*/
 .aboutUs__footer{
-    border: 2px solid green;
+    /*border: 2px solid green;*/
 }
 
 .aboutUs__footer_text{

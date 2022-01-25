@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    border: 4px solid red;
+    /*border: 4px solid red;*/
     display:flex;
     flex-direction: column;
     padding: 20px 20px 10px 20px;
@@ -19,13 +19,14 @@ body{
 
 /*///////////////////HEADER PART/////////////////////*/
 .homePage__header{
-    border: 4px solid green;
+    /*border: 4px solid green;*/
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     padding: 10px 20px;
 }
 
+/*
 .homePage__header_label{
     border: 1px solid rgb(145, 255, 0);
 }
@@ -37,14 +38,17 @@ body{
 .homePage__header_label{
     border: 1px solid rgb(145, 255, 0);
 }
+*/
+
 
 /*logo*/
 .homePage__header_label{
     display: flex;
 }
 .homePage__header_label img{
-    width: 100px;
+    width: 150px;
 }
+
 /*logo End*/
 
 
@@ -110,9 +114,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 700px;
-
-
-    border: 4px solid blue;
+    /*border: 4px solid blue;*/
     display: flex;
 }
 
@@ -163,9 +165,6 @@ body{
 .homePage__nav_home:hover:before, .homePage__nav_products:hover:before, .homePage__nav_aboutUs:hover:before, .homePage__nav_team:hover:before, .homePage__nav_contacts:hover:before{
     left:80%;
 }
-
-
-
 /*Navigation buttons animation END*/
 
 /*//////////////////////HEADER PART END////////////////////*/
@@ -176,7 +175,7 @@ body{
 
 /*Slider*/
 .homePage__main{
-    border: 4px solid yellow;
+    /*border: 4px solid yellow;*/
     display: flex;
 }
 
@@ -191,13 +190,10 @@ body{
     right:300%;
     height:100%;
     position:relative;
-    -webkit-animation:slide 30s infinite;
-    -moz-animation:slide 30s infinite;
     animation:slide 30s infinite;
 }
 .slider{
     width:25%;
-    /*height:50vh;*/
     float:left;
     position:relative;
     z-index:1;
@@ -337,7 +333,7 @@ body{
 
 /*Footer*/
 .homePage__footer{
-    border: 10px solid purple;
+    /*border: 10px solid purple;*/
     display: flex;
     flex-direction: column;
     padding:4px;
@@ -346,7 +342,7 @@ body{
 .homePage__footer_topSales_text{
     display: flex;
     justify-content: center;
-    border: 10px solid yellow;
+    /*border: 10px solid yellow;*/
     font-size: 1.5rem;
     color:#FF8B1F;
     background: none;
@@ -354,12 +350,16 @@ body{
 
 .homePage__footer_topSales_products{
     display: flex;
-    border: 10px solid blue;
+    /*border: 10px solid blue;*/
     padding: 10px;
     justify-content: space-between;
 }
 
-
+.card{
+    border: 10px solid #FF8B1F;
+    border-radius: 10px;
+    display: flex;
+}
 
 
 /*animation of products*/
@@ -368,9 +368,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
     overflow: hidden;
-    /*transform: skew(4deg);*/
 }
 .homePage__footer_topSales_products .card {
     flex: 1;
@@ -431,25 +429,7 @@ body{
 
 
 
-.card{
-    border: 10px solid rgb(233, 38, 233);
-    display: flex;
-}
-.card{
-    border: 10px solid rgb(233, 38, 233);
-    display: flex;
-}
-.card{
-    border: 10px solid rgb(233, 38, 233);
-    display: flex;
-}
-.card{
-    border: 10px solid rgb(233, 38, 233);
-    display: flex;
-}
-.card{
-    border: 10px solid rgb(233, 38, 233);
-    display: flex;
-}
+
+
 
 

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../itstep-project-1/items/products/products.css" type="text/css">
     <title>Products</title>
 </head>
@@ -13,23 +15,60 @@
 <div class="container"> <!--all page back-->
 
 
-    <!--//////////////////////////////////////// HEAD PART //////////////////////////////////////////////-->
-
     <!--Header-->
-    <div class="header">
-        <a href="../itStepProject1/homePage.html" target="_blank" class="homePage__header_label">LABEL</a>
-        <div class="header__search">SEARCH</div>
-        <div class="header__button">LOG IN</div>
+    <div class="homePage__header">
+
+        <a class="homePage__header_label" href="homePage.html" target="_blank">
+            <img src="./items/logo.svg" alt="logo" title="Home page">
+        </a>
+
+        <div class="homePage__header_search">
+            <div class="search">
+                <div class="search_container">
+                    <form action="/action_page.php" target="_blank">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="homePage__header_label">
+            <div class="logIn_button">
+                <button type="submit"><span>Login</span></button>
+            </div>
+        </div>
+
+
     </div>
 
 
     <!--Navigation bar-->
-    <div class="nav">
-        <a href="../itStepProject1/homePage.html" target="_blank" class="nav__home">Home</a>
-        <a href="../itStepProject1/products.html" target="_blank" class="nav__products">Products</a>
-        <a href="../itStepProject1/aboutUs.html" target="_blank" class="nav__aboutUs">About Us</a>
-        <a href="../itStepProject1/team.html" target="_blank" class="nav__team">Team</a>
-        <a href="../itStepProject1/contacts.html" target="_blank" class="nav__contacts">Contacts</a>
+    <div class="homePage__nav">
+
+        <div class="homePage__nav_home">
+            <a href="homePage.html" target="_blank">Home</a>
+        </div>
+
+        <div class="homePage__nav_products">
+            <div>
+                <a href="products.html" target="_blank">Products</a>
+            </div>
+        </div>
+
+        <div class="homePage__nav_aboutUs">
+            <a href="aboutUs.html" target="_blank">About Us</a>
+        </div>
+
+        <div class="homePage__nav_team">
+            <a href="team.html" target="_blank">Team</a>
+        </div>
+
+        <div class="homePage__nav_contacts">
+            <a href="contacts.html" target="_blank">Contacts</a>
+        </div>
+
     </div>
     <!--Navigation bar End-->
     <!--//////////////////////////////////////// HEAD PART END //////////////////////////////////////////////-->

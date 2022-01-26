@@ -40,7 +40,7 @@
             width: 300px;
             height: 300px;
             margin: 10px;
-            border: 10px solid rgb(207, 18, 18);
+            border: 10px solid rgb(255, 139, 31);
             border-radius: 50%;
             overflow: hidden;
             position: relative;
@@ -49,8 +49,8 @@
             cursor: default;
         }
         .view .mask, .view .content {
-            width: 300px;
-            height: 300px;
+            width: 330px;
+            height: 330px;
             position: absolute;
             /*overflow: hidden;*/
             top: 0;
@@ -61,7 +61,7 @@
 
         .view h3 {
             text-transform: uppercase;
-            color: rgb(17, 223, 120);
+            color: #000000;
             text-align: center;
             position: relative;
             font-size: 30px;
@@ -81,8 +81,8 @@
             display: inline-block;
             text-decoration: none;
             padding: 10px 34px;
-            background: rgb(11, 115, 184);
-            color: #fff;
+            background: rgb(255, 139, 31);
+            color: #000000;
             text-transform: uppercase;
             box-shadow: 0 0 3px #000;
         }
@@ -94,17 +94,17 @@
             transition: all 0.2s ease-in;
         }
         .view-second .mask {
-            background-color: rgba(252, 134, 0, 0.7);
+            background-color: rgba(248, 237, 209, 0.7);
             width: 250px;
             padding: 40px;
             height: 300px;
-            opacity: 1;
+            opacity: 0;
             transform: translate(280px, 190px) rotate(45deg);
             transition: all 0.5s ease-in-out;
         }
         .view-second h3 {
             border-bottom: 2px solid rgba(0, 0, 0, 0.664);
-            margin: 20px 40px 0px 40px;
+            margin: 20px 40px 0 40px;
             transform: translate(0px, -100px);
             transition: all 0.5s ease-in-out;
         }
@@ -132,7 +132,7 @@
             transition-delay: 0.4s;
         }
         .view-second:hover a.info {
-            transform: translate(0px,60px);
+            transform: translate(0px,40px);
         }
     /*team__main_person End*/
 
@@ -141,10 +141,11 @@
 
 
 /*Footer*/
-.team__footer{
+.team__footer p{
     display: flex;
-    border: 2px solid green;
+    color:#F8EDD1;
+    /*border: 2px solid green;*/
+    justify-content: center;
 }
-
 
 /*Footer End*/

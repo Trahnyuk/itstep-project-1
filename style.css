@@ -15,7 +15,7 @@ body{
     /*border: 4px solid red;*/
     display:flex;
     flex-direction: column;
-    padding: 20px 20px 10px 20px;
+    padding: 0 20px 10px 20px;
 }
 
 /*///////////////////HEADER PART/////////////////////*/
@@ -24,10 +24,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    padding: 10px 20px;
+    padding: 0 20px;
 }
-
-
 
 /*
 .homePage__header_label{
@@ -51,9 +49,7 @@ body{
 .homePage__header_label img{
     width: 150px;
 }
-
 /*logo End*/
-
 
 
 /*search bar*/
@@ -66,6 +62,7 @@ body{
     font-size: 17px;
     border: none;
     width: 500px;
+    border-radius: 6px 0 0 6px;
 }
 
 .search .search_container button {
@@ -75,14 +72,13 @@ body{
     font-size: 17px;
     border: none;
     cursor: pointer;
+    border-radius: 0 6px 6px 0;
 }
 
 .search .search_container button:hover {
     background: rgb(106, 57, 185);
     color: rgb(255, 139, 31);
 }
-
-
 /*search bar End*/
 
 
@@ -90,7 +86,7 @@ body{
 .logIn_button button{
     width: 100px;
     height: 100px;
-    border-radius: 0 20px 20px 20px;
+    border-radius: 0 0 20px 20px;
     font-size: 24px;
     background-color: #FF8B1F;
     cursor: pointer;
@@ -99,8 +95,10 @@ body{
 
 .logIn_button button:hover{
     background-color: rgb(106, 57, 185);
-    color: #F8EDD1;
-    border: 2px solid white;
+    color: #FF8B1F;
+    border: 1px solid white;
+    border-top: none;
+    box-shadow: 0 5px 10px 5px rgb(255, 139, 31);
 }
 
 
@@ -143,7 +141,7 @@ body{
     overflow:hidden;
     background-color: #307CE6;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .homePage__nav_home:before, .homePage__nav_products:before, .homePage__nav_aboutUs:before, .homePage__nav_team:before, .homePage__nav_contacts:before{

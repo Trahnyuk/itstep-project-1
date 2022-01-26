@@ -26,11 +26,11 @@
                 min-height: 100%;
                 min-width: 100%;
                 position: absolute;
-                top: -9990px;
-                bottom: -9999px;
-                left: -9999px;
-                right: -9999px;
-                margin: auto;
+                top: 0;
+                bottom: 0;
+                left: -1px;
+                right: 0;
+                margin:;
             }
             /*img centering End*/
 
@@ -45,16 +45,16 @@
             overflow: hidden;
             position: relative;
             text-align: center;
-            box-shadow: 1px 1px 2px #11913c;
+            /*box-shadow: 1px 1px 2px #11913c;*/
             cursor: default;
         }
         .view .mask, .view .content {
-            width: 330px;
-            height: 330px;
+            width: 300px;
+            height: 300px;
             position: absolute;
-            /*overflow: hidden;*/
+            overflow: hidden;
             top: 0;
-            left: 0;
+            left: -8px;
             /*border: 4px solid green;*/
         }
 

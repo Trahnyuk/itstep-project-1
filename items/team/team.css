@@ -30,7 +30,6 @@
                 bottom: 0;
                 left: -1px;
                 right: 0;
-                margin:;
             }
             /*img centering End*/
 
@@ -124,15 +123,15 @@
             transform: translate(-20px, -50px) rotate(45deg);
         }
         .view-second:hover h3 {
-            transform: translate(0px,30px);
+            transform: translate(10px,30px);
             transition-delay: 0.3s;
         }
         .view-second:hover p {
-            transform: translate(0px,40px);
+            transform: translate(10px,40px);
             transition-delay: 0.4s;
         }
         .view-second:hover a.info {
-            transform: translate(0px,40px);
+            transform: translate(10px,40px);
         }
     /*team__main_person End*/
 
@@ -146,6 +145,7 @@
     color:#F8EDD1;
     /*border: 2px solid green;*/
     justify-content: center;
+    padding-top: 40px;
 }
 
 /*Footer End*/

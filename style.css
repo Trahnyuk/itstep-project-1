@@ -73,11 +73,13 @@ body{
     border: none;
     cursor: pointer;
     border-radius: 0 6px 6px 0;
+    transition: 0.3s ease-out ;
 }
 
 .search .search_container button:hover {
     background: rgb(106, 57, 185);
     color: rgb(255, 139, 31);
+    transition: 0.3s ease-in;
 }
 /*search bar End*/
 
@@ -91,6 +93,7 @@ body{
     background-color: #FF8B1F;
     cursor: pointer;
     border: none;
+    transition: 0.4s ease-out ;
 }
 
 .logIn_button button:hover{
@@ -99,6 +102,7 @@ body{
     border: 1px solid white;
     border-top: none;
     box-shadow: 0 5px 10px 5px rgb(255, 139, 31);
+    transition: 0.2s ease-in;
 }
 
 
@@ -153,18 +157,20 @@ body{
     left: -55px;
     top: -40px;
     transform: rotate(37deg);
-    transition: all .3s;
+    transition: all .3s ease-in;
     opacity: 0.3;
 }
 
 .homePage__nav_home:hover, .homePage__nav_products:hover, .homePage__nav_aboutUs:hover, .homePage__nav_team:hover, .homePage__nav_contacts:hover{
     background-color: #FF8B1F;
     border: 2px solid #000000;
+    transition: all 0.4s ease-in;
 }
 
 
 .homePage__nav_home:hover:before, .homePage__nav_products:hover:before, .homePage__nav_aboutUs:hover:before, .homePage__nav_team:hover:before, .homePage__nav_contacts:hover:before{
     left:80%;
+
 }
 /*Navigation buttons animation END*/
 

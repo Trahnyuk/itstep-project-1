@@ -122,9 +122,10 @@ body{
     background-image:url(../itstep-project-1/items/navBar_bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 620px;
+    background-position: 635px;
     /*border: 4px solid blue;*/
     display: flex;
+    padding: 5px;
 }
 
 .homePage__nav a{

@@ -14,6 +14,7 @@
     height:400px;
     position:relative;
     overflow:hidden;
+    box-shadow: 0 20px 63px -5px #000;
 }
 .slides{
     width:400%;

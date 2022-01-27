@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../itStepProject1/items/contacts/contacts.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../itstep-project-1/items/contacts/contacts.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <title>Contacts</title>
 </head>
 
@@ -16,21 +19,61 @@
 
     <!--Header-->
     <div class="homePage__header">
-        <a href="../itStepProject1/homePage.html" target="_blank" class="homePage__header_lable">LABLE</a>
-        <div class="homePage__header_search">SEARCH</div>
-        <div class="homePage__header_label">LOG IN</div>
+
+        <a class="homePage__header_label" href="homePage.html" target="_blank">
+            <img src="./items/logo.svg" alt="logo" title="Home page">
+        </a>
+
+        <div class="homePage__header_search">
+            <div class="search">
+                <div class="search_container">
+                    <form action="/action_page.php" target="_blank">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="homePage__header_label">
+            <div class="logIn_button">
+                <button type="submit"><span>Login</span></button>
+            </div>
+        </div>
+
+
     </div>
 
 
     <!--Navigation bar-->
     <div class="homePage__nav">
-        <a href="../itStepProject1/homePage.html" target="_blank" class="homePage__nav_home">Home</a>
-        <a href="../itStepProject1/products.html" target="_blank" class="homePage__nav_products">Products</a>
-        <a href="../itStepProject1/aboutUs.html" target="_blank" class="homePage__nav_aboutUs">About Us</a>
-        <a href="../itStepProject1/team.html" target="_blank" class="homePage__nav_team">Team</a>
-        <a href="../itStepProject1/contacts.html" target="_blank" class="homePage__nav_contacts">Contacts</a>
+
+        <div class="homePage__nav_home">
+            <a href="homePage.html" target="_blank">Home</a>
+        </div>
+
+        <div class="homePage__nav_products">
+            <div>
+                <a href="products.html" target="_blank">Products</a>
+            </div>
+        </div>
+
+        <div class="homePage__nav_aboutUs">
+            <a href="aboutUs.html" target="_blank">About Us</a>
+        </div>
+
+        <div class="homePage__nav_team">
+            <a href="team.html" target="_blank">Team</a>
+        </div>
+
+        <div class="homePage__nav_contacts">
+            <a href="contacts.html" target="_blank">Contacts</a>
+        </div>
+
     </div>
     <!--Navigation bar End-->
+
     <!--//////////////////////////////////////// HEAD PART END //////////////////////////////////////////////-->
 
 
@@ -39,53 +82,73 @@
 
         <div class="contacts__main">
 
-            <div class="contacts__main_headerText ">
-                <div class="contactUs__main_header_text-upper">Primus quadra sed mire captiss onus est.</div>
-                <div class="contactUs__main_header_text-lower">Devatios unda in berolinum!</div>
-            </div>
 
             <div class="contacts__main_contactBox">
 
                 <div class="contactUs__main_contactBox_contactForm">
 
-                    <div class="contacts__main_contactBox_contactForm-firstRow">
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="email">
-                    </div>
+                            <div class="left-side">
 
-                    <div class="contacts__main_contactBox_contactForm-subject">
-                        <input type="text" placeholder="Subject">
-                    </div>
+                                <div class="address details">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div class="topic">Address</div>
+                                    <div class="text-one">Surkhet, NP12</div>
+                                    <div class="text-two">Birendranagar 06</div>
+                                </div>
 
-                    <div class="contacts__main_contactBox_contactForm-textarea">
-                        <textarea placeholder="Enter your massage"></textarea>
-                    </div>
+                                <div class="phone details">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <div class="topic">Phone</div>
+                                    <div class="text-two">+420 000 777 000</div>
+                                </div>
 
-                    <div class="contacts__main_contactBox_contactForm-button">
-                        <input type="button" value="Send">
-                    </div>
+                                <div class="email details">
+                                    <i class="fas fa-envelope"></i>
+                                    <div class="topic">Email</div>
+                                    <div class="text-two">info.codinglab@gmail.com</div>
+                                </div>
+
+                            </div>
+
+                            <div class="right-side">
+
+                                <div class="topic-text">Send us a message</div>
+                                <p class="some_text">Nuclear vexatum iaceres ire in fidelis amivadum!Pol, a bene adgium.</p>
+
+                                <form action="#">
+
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Name">
+                                    </div>
+
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Email">
+                                    </div>
+
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Subject">
+                                    </div>
+
+                                    <div class="input-box message-box">
+                                        <textarea placeholder="Enter your"></textarea>
+                                    </div>
+
+                                    <div class="button">
+                                        <input type="button" value="Send Now" >
+                                    </div>
+
+                                </form>
+
+                            </div>
 
                 </div>
 
-
-                <div class="contacts__main_contactBox_contactInfo">
-
-                    <div class="contacts__main_contactBox_contactInfo-someText">Heu, ausus!</div>
-                    <div class="contacts__main_contactBox_contactInfo-address">lkjksfj ,sjdkl 555/56</div>
-                    <div class="contacts__main_contactBox_contactInfo-phone">777555999</div>
-                    <div class="contacts__main_contactBox_contactInfo-email">asdjk@jkdf.com</div>
-                    <div class="contacts__main_contactBox_contactInfo-Web">www.comd.com</div>
-
-                </div>
 
             </div>
 
         </div>
         <!--Main content END-->
 
-        <!--Footer-->
-        <div class="contacts__footer"></div>
-        <!--Footer END-->
         <!--//////////////////////////////////////// Maine END//////////////////////////////////////////////-->
 </div>
 

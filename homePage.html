@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../itStepProject1/items/homePage/homePage.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../itstep-project-1/items/homePage/homePage.css" type="text/css">
     <title>Home</title>
 </head>
 
@@ -16,42 +18,186 @@
 
     <!--Header-->
     <div class="homePage__header">
-        <a href="../itStepProject1/homePage.html" target="_blank" class="homePage__header_lable">LABLE</a>
-        <div class="homePage__header_shearch">SHEARCH</div>
-        <div class="homePage__header_lable">LOG IN</div>
+
+        <a class="homePage__header_label" href="homePage.html" target="_blank">
+            <img src="./items/logo.svg" alt="logo" title="Home page">
+        </a>
+
+        <div class="homePage__header_search">
+            <div class="search">
+                <div class="search_container">
+                    <form action="/action_page.php" target="_blank">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="homePage__header_label">
+            <div class="logIn_button">
+                <button type="submit"><span>Login</span></button>
+            </div>
+        </div>
+
+
     </div>
 
 
     <!--Navigation bar-->
     <div class="homePage__nav">
-        <a href="../itStepProject1/homePage.html" target="_blank" class="homePage__nav_home">Home</a>
-        <a href="../itStepProject1/products.html" target="_blank" class="homePage__nav_products">Products</a>
-        <a href="../itStepProject1/aboutUs.html" target="_blank" class="homePage__nav_aboutUs">About Us</a>
-        <a href="../itStepProject1/team.html" target="_blank" class="homePage__nav_team">Team</a>
-        <a href="../itStepProject1/contacts.html" target="_blank" class="homePage__nav_contacts">Contacts</a>
+
+        <div class="homePage__nav_home">
+            <a href="homePage.html" target="_blank">Home</a>
+        </div>
+
+        <div class="homePage__nav_products">
+            <div>
+            <a href="products.html" target="_blank">Products</a>
+            </div>
+        </div>
+
+        <div class="homePage__nav_aboutUs">
+            <a href="aboutUs.html" target="_blank">About Us</a>
+        </div>
+
+        <div class="homePage__nav_team">
+            <a href="team.html" target="_blank">Team</a>
+        </div>
+
+        <div class="homePage__nav_contacts">
+            <a href="contacts.html" target="_blank">Contacts</a>
+        </div>
+
     </div>
     <!--Navigation bar End-->
     <!--//////////////////////////////////////// HEAD PART END //////////////////////////////////////////////-->
 
 
     <!--//////////////////////////////////////// Maine //////////////////////////////////////////////-->
-    <!--Main slider-->
+
+
+    <!--Main content-->
     <div class="homePage__main">
-        <div class="homePage__main_slider">Slider</div>
+
+        <div id="slider">
+            <div class="slides">
+
+                <!--God of War -->
+                <div class="slider">
+                    <div class="legend"></div>
+                    <div class="content">
+                        <div class="content-txt">
+                            <h2> SALE</h2>
+                            <h2>50% Off</h2>
+                            <h3>God of War Ragnarok </h3>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="../itstep-project-1/items/homePage/sourse/slider/webp/game-god-of-war-ragnarok.webp" alt="gow of war ragnarok">
+                    </div>
+                </div>
+
+
+                <!--Biomutant -->
+                <div class="slider">
+                    <div class="legend"></div>
+                    <div class="content">
+                        <div class="content-txt">
+                            <h2> SALE</h2>
+                            <h2> 50% Off</h2>
+                            <h3>Biomutant </h3>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="../itstep-project-1/items/homePage/sourse/slider/webp/game-biomutant.webp" alt="biomutant">
+                    </div>
+                </div>
+                <!-- Halo -->
+                <div class="slider">
+                    <div class="legend"></div>
+                    <div class="content">
+                        <div class="content-txt">
+                            <h2> SALE</h2>
+                            <h2>50% Off </h2>
+                            <h3> Halo Infinite </h3>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="../itstep-project-1/items/homePage/sourse/slider/webp/game-halo.webp" alt="halo">
+                    </div>
+                </div>
+
+                <!--Battlefield 2042 -->
+                <div class="slider">
+                    <div class="legend"></div>
+                    <div class="content">
+                        <div class="content-txt">
+                            <h2> SALE</h2>
+                            <h2> 50% Off</h2>
+                            <h3> Battered 2042 </h3>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="../itstep-project-1/items/homePage/sourse/slider/webp/game-battelfield-2042.webp" alt="battelfield 2042">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!--Main content END-->
 
+
+
     <!--Footer-->
     <div class="homePage__footer">
-        <div class="homePage__footer_proguct1">Product</div>
-        <div class="homePage__footer_proguct2">Product</div>
-        <div class="homePage__footer_proguct3">Product</div>
-        <div class="homePage__footer_proguct4">Product</div>
-        <div class="homePage__footer_proguct5">Product</div>
+
+
+        <div class="homePage__footer_topSales_text">
+            <h2><span><sub> ︾ </sub></span>Top Sales of Month<span><sub> ︾ </sub></span></h2>
+        </div>
+
+
+        <div class="homePage__footer_topSales_products">
+
+
+            <div class="card">
+                <img src="../itstep-project-1/items/homePage/sourse/footer_img/game-elder-ring.webp">
+                <div class="card__head">Elder Ring</div>
+            </div>
+
+            <div class="card">
+                <img src="../itstep-project-1/items/homePage/sourse/footer_img/game-farcry_6.webp">
+                <div class="card__head">Farcry 6</div>
+            </div>
+
+
+            <div class="card">
+                <img src="../itstep-project-1/items/homePage/sourse/footer_img/game-resident-evil.webp">
+                <div class="card__head">Resident Evil</div>
+            </div>
+
+            <div class="card">
+                <img src="../itstep-project-1/items/homePage/sourse/footer_img/game-kindom-come.webp">
+                <div class="card__head">Kindom Come</div>
+            </div>
+
+            <div class="card">
+                <img src="../itstep-project-1/items/homePage/sourse/footer_img/game-witcher.webp">
+                <div class="card__head">Witcher </div>
+            </div>
+
+
+        </div>
+
     </div>
+
+</div>
     <!--Footer END-->
     <!--//////////////////////////////////////// Maine END//////////////////////////////////////////////-->
 </div>
+
 
 
 </body>

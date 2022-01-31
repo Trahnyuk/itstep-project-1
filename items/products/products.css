@@ -7,13 +7,15 @@
     /*border: 6px solid blue;*/
     display: flex;
 }
+
+
+
     /*Side Bar*/
         .product__sideBar{
             border: 4px solid yellow;
             width: 30%;
             height: 50%;
         }
-
 /*
 *:focus {
     outline: none;
